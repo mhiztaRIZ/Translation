@@ -14,7 +14,7 @@ document.getElementById("translateBtn").addEventListener("click", function() {
 function translateText(text, targetLanguage) {
   // Replace 'YOUR_API_KEY' with your actual API key
   const apiKey = 'YOUR_API_KEY';
-  const endpoint = `https://translation-api.example.com/translate?apiKey=${apiKey}`;
+  const endpoint = `https://igboapi.com/api/v1/`;
 
   const requestData = {
     text: text,
