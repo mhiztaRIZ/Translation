@@ -12,7 +12,7 @@ document.getElementById("translateBtn").addEventListener("click", function() {
 });
 
 function translateText(text, targetLanguage) {
-  // Replace 'YOUR_API_KEY' with your actual API key
+  // Replace 'const apiKey' with your actual API key
   const apiKey = '01842b06-41ec-4f56-a0e9-f9d1344606c3';
   const endpoint = `https://igboapi.com/api/v1/`;
 
